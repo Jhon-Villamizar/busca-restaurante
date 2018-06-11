@@ -1,0 +1,76 @@
+body{
+    background: url("https://cdnmundo2.img.sputniknews.com/images/107178/93/1071789321.jpg");
+    background-size: 100%;
+}
+.bienvenida h1{
+    font-size: 55px;
+    font-family: 'Song Myung', serif;
+}
+header.bienvenida{
+    margin: 6% 0 10% 0;
+   color: papayawhip;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.34);
+}
+header{
+    text-align: center;
+    margin: 0% 0 2% 0;
+    color: papayawhip;
+    padding: 10px;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.34);
+}
+header h1{
+    font-size: 55px;
+    font-family: 'Song Myung', serif;
+}
+.btn{
+    width: 16%;
+}
+.card{
+    background-color: #00000069;
+}
+.card-body{
+    color: white;
+    
+}
+.card-body > .btn{
+    width: 30%;
+}
+.btn.modif, .btn.eliminar{
+    width: 45%;
+}
+.header{
+	width: 100%;
+}
+.tabla1{
+    background-color: rgba(0, 0, 0, 0.34);
+    padding: 10px;
+}
+
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+    color: white;
+}
+input.form-control{
+    background-color:  #ffffffc7;;
+    color: black;
+}
+.input-group-text{
+    width: 40px;
+}
+.fa-mobile-alt:before {
+    content: "\f3cd";
+    margin-left: 3px;
+}
+div.header h1{
+    position: absolute;
+    font-weight: 999;
+    top: 149px;
+    border: 3px dashed;
+    color: darkred;
+    padding: 20px;
+    left: 423px;
+    margin: auto;
+    font-style: oblique;
+    background-color: #00adff75;
+}
