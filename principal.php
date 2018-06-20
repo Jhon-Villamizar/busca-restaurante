@@ -17,7 +17,7 @@ include("sessiones.php");
 
   </ol>
 </nav>
-<header>
+<header class="bienvenida">
   <h1>Agrega Nuevos o Modifica <br> Restaurantes</h1>
 </header>
 <div class="container">

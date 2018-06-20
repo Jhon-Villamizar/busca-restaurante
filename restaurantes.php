@@ -22,7 +22,7 @@ $datos=$clase->listar();
   </ol>
 </nav>
 <br>
-<header>
+<header class="bienvenida">
 	<h1>Lista de Restaurantes</h1>
 </header>
 	<div class="container">
@@ -47,7 +47,7 @@ $datos=$clase->listar();
 							<td><?php echo $filaregistro["nombre"];?></td>
 							<td><?php echo $filaregistro["telefono"];?></td>
 							<td><?php echo $filaregistro["direccion"];?></td>
-							<td><a href="<?php echo $filaregistro["web"];?>" class="link">www.<?php echo $filaregistro["nombre"];?>.com</a>
+							<td><a href="<?php echo $filaregistro["web"];?>" class="link"><?php echo $filaregistro["nombre"];?></a>
 							</tr>
 						<?php 
 						}

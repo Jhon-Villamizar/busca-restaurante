@@ -16,7 +16,7 @@
 		</ol>
 	</nav>
 	<br>
-	<header >
+	<header class="bienvenida">
 		<h1>Formulario de acceso</h1>
 	</header>
 
@@ -40,7 +40,7 @@
 							<input type="password" class="form-control" placeholder="Clave" aria-label="Password" autocomplete="off" aria-describedby="basic-addon1" name="clave" required maxlength="60">
 					</div>
 					<div>
-						<button type="submit" class="btn btn-outline-light" name="boton" id="boton">Enviar</button> 
+						<button type="submit" class="btn btn-outline-light btn-entrar" name="boton" id="boton">Entrar</button> 
 					</div>
 				</form>
 			</div>

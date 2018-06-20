@@ -92,7 +92,7 @@ a.link:hover{
     }
 
     body{
-        background-size: 239%!important;
+        background-size: 339%!important;
     }
     table.dataTable {
     width: 90%!important;
@@ -103,5 +103,21 @@ a.link:hover{
     }
     .botones-inicio{
         display: inline-flex;
+    }
+    header.bienvenida h1{
+    font-size: 36px;
+    }
+    .btn-entrar{
+        width: 25%;
+    }
+    .btn-nuevo{
+        width: 130px;
+    }
+    .botones{
+        text-align: center;
+    }
+    .btn-guardar, .btn-regresar{
+        width: 90px;
+
     }
 }

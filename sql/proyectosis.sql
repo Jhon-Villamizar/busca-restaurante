@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.9
+-- version 4.8.1
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 11-06-2018 a las 22:44:15
--- Versión del servidor: 10.1.31-MariaDB
--- Versión de PHP: 7.2.3
+-- Tiempo de generación: 20-06-2018 a las 07:14:34
+-- Versión del servidor: 10.1.33-MariaDB
+-- Versión de PHP: 7.2.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -41,7 +41,9 @@ CREATE TABLE `restaurantes` (
 --
 
 INSERT INTO `restaurantes` (`id`, `nombre`, `telefono`, `direccion`, `web`) VALUES
-(2, 'Sarku (Los molinos)', '4444444', 'CC Los Molinos', 'www.sarkujapan.com');
+(1, 'Formosa', '(4) 3118789', 'Carrera 35 #7-52 (3,43 km)\r\nMedellin', 'https://es-la.facebook.com/formosa101mde/'),
+(2, 'Sarku', '(4) 444 1100', 'CC Los Molinos (82a-26, Cl. 30a, MedellÃ­n, Antioquia)', 'http://www.sarkujapan.com.co/'),
+(3, 'Denver', '(4)366 51 40', 'C.C. La Strada local 250 (Av. El Poblado #1S-82, Med, Ant)', 'https://www.restaurantedenver.com/');
 
 -- --------------------------------------------------------
 
@@ -82,7 +84,9 @@ INSERT INTO `tblusuarios` (`id`, `nombre`, `correo`, `clave`) VALUES
 (4, 'DIANA ALAVREZ', 'juanff3@gmail.com', '8cb2237d0679ca88db6464eac60da96345513964'),
 (5, 'SANDRA ZAPATA', 'juanff4@gmail.com', '8cb2237d0679ca88db6464eac60da96345513964'),
 (6, 'ANTONIO DIAZ', 'juanff5@gmail.com', '8cb2237d0679ca88db6464eac60da96345513964'),
-(7, 'jhon', 'jhon@jhon.com', '');
+(7, 'jhon', 'jhon@jhon.com', ''),
+(8, 'tatiana', 'tatigonzalez0517@gmail.com', '7471'),
+(9, 'Tatiana', 'tatigonzalez0517@gmamil.com', 'sebastian1');
 
 --
 -- Índices para tablas volcadas
@@ -115,7 +119,7 @@ ALTER TABLE `tblusuarios`
 -- AUTO_INCREMENT de la tabla `restaurantes`
 --
 ALTER TABLE `restaurantes`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT COMMENT 'id restaurantes', AUTO_INCREMENT=3;
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT COMMENT 'id restaurantes', AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `tblclientes`
@@ -127,7 +131,7 @@ ALTER TABLE `tblclientes`
 -- AUTO_INCREMENT de la tabla `tblusuarios`
 --
 ALTER TABLE `tblusuarios`
-  MODIFY `id` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

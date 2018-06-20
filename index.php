@@ -12,7 +12,7 @@
 			<div class="row">
 				<div class="col-lg-12 text-center ">
 					
-					<div class="botones-inicio ">
+					<div class="botones-inicio">
 						<a href="restaurantes.php" id="menu">
 						<button type="button" class="btn btn-outline-light btn-inicio tabla1">Restaurantes</button>
 						</a>

@@ -23,12 +23,12 @@ $datos=$clase->listar();
   </ol>
 </nav>
 <br>
-<header>
+<header class="bienvenida">
 	<h1>Lista de Restaurantes</h1>
 </header>
 	<div class="container">
 		<?php if (isset($mensaje)) echo $mensaje?>
-		<a href="restaurantes.formulario.php" class="btn btn-outline-light mb-2">Nuevo registro</a>
+		<a href="restaurantes.formulario.php" class="btn btn-outline-light mb-2 btn-nuevo">Nuevo registro</a>
 		<div class="tabla1">
 			
 				<table width="100%" id="tablarestaurantes" class="display">

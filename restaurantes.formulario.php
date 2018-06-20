@@ -31,7 +31,7 @@ if (isset($_REQUEST['id'])) {
 </nav>
 <br>
 
-<header>
+<header class="bienvenida">
 	<h1>Modificacion de Registro</h1>
 </header>
 <div class="container">
@@ -82,9 +82,9 @@ if (isset($_REQUEST['id'])) {
 			</div>
 			
 
-			<div>
-				<button class="btn btn-outline-light" type="submit" name="boton" id="boton">Guardar</button> 
-				<a href="adminres.php" class="btn btn-outline-light text-left" type="boton" name="boton" id="boton">Regresar</a>
+			<div class="botones">
+				<button class="btn btn-outline-light btn-guardar" type="submit" name="boton" id="boton">Guardar</button> 
+				<a href="adminres.php" class="btn btn-outline-light text-left btn-regresar" type="boton" name="boton" id="boton">Regresar</a>
 			</div>
 		</form>
 	</div>
