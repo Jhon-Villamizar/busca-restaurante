@@ -16,6 +16,9 @@
 						<a href="restaurantes.php" id="menu">
 						<button type="button" class="btn btn-outline-light btn-inicio tabla1">Restaurantes</button>
 						</a>
+						<a href="tipos.php" id="tipo">
+						<button type="button" class="btn btn-outline-light btn-inicio tabla1">Tipos</button>
+						</a>
 						<a href="login.php" id="contenido">
 							<button type="button" class="btn btn-outline-light btn-inicio tabla1">Administrar</button>
 						</a>

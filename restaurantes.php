@@ -27,7 +27,14 @@ $datos=$clase->listar();
 </header>
 	<div class="container">
 		<div class="tabla1">
-			
+			<div class="card" style="width: 18rem;">
+				<img class="card-img-top" src="http://asadacho.com/wp-content/uploads/2015/01/asado-parrilla.jpg" alt="Card image cap">
+				<div class="card-body">
+					<h5 class="card-title">Asados</h5>
+					<p class="card-text">Restaurantes epecializados en carnes y preparaciones a la parrilla.</p>
+					<a href="#" class="btn btn-primary">Lista</a>
+				</div>
+			</div>
 				<table id="tablarestaurantes" class="display">
 					<thead>
 						<tr class="bg-warning">
