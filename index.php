@@ -14,10 +14,10 @@
 					
 					<div class="botones-inicio">
 						<a href="restaurantes.php" id="menu">
-						<button type="button" class="btn btn-outline-light">Restaurantes</button>
+						<button type="button" class="btn btn-outline-light btn-inicio tabla1">Restaurantes</button>
 						</a>
 						<a href="login.php" id="contenido">
-							<button type="button" class="btn btn-outline-light">Administrar</button>
+							<button type="button" class="btn btn-outline-light btn-inicio tabla1">Administrar</button>
 						</a>
 					</div>
 					
