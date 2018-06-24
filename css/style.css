@@ -78,6 +78,9 @@ div.header h1{
     font-style: oblique;
     background-color: #00adff75;
 }
+a:hover{
+    text-decoration:none!important; 
+}
 a.link{
     color: black;
     text-decoration-style: none;
@@ -94,6 +97,12 @@ a.link:hover{
 .card{
     margin: 20px 40px;
     padding: 0;
+}
+h5{
+    color:white;
+}
+.media{
+    display: block;
 }
 
 @media(max-width: 1200px) and (min-width: 992px){
